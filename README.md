@@ -1,0 +1,1 @@
+MA screener daily report
