@@ -7,10 +7,11 @@
   "entry": 24.3,
   "stop": 23.67,
   "peak": 24.3,
-  "last": 24.3,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 23.85,
+  "ret": -1.85,
+  "days": 1,
+  "status": "active",
+  "ma20": 23.65
  },
  "5871.TW": {
   "code": "5871",
@@ -20,10 +21,11 @@
   "entry": 123.5,
   "stop": 119.64,
   "peak": 123.5,
-  "last": 123.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 122.5,
+  "ret": -0.81,
+  "days": 1,
+  "status": "active",
+  "ma20": 116.33
  },
  "2880.TW": {
   "code": "2880",
@@ -33,10 +35,11 @@
   "entry": 40.8,
   "stop": 39.38,
   "peak": 40.8,
-  "last": 40.8,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 39.9,
+  "ret": -2.21,
+  "days": 1,
+  "status": "active",
+  "ma20": 38.34
  },
  "2892.TW": {
   "code": "2892",
@@ -46,10 +49,11 @@
   "entry": 34.45,
   "stop": 33.32,
   "peak": 34.45,
-  "last": 34.45,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 33.95,
+  "ret": -1.45,
+  "days": 1,
+  "status": "active",
+  "ma20": 33.17
  },
  "2637.TW": {
   "code": "2637",
@@ -72,10 +76,11 @@
   "entry": 132.5,
   "stop": 127.43,
   "peak": 132.5,
-  "last": 132.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 128.5,
+  "ret": -3.02,
+  "days": 1,
+  "status": "active",
+  "ma20": 123.39
  },
  "2887.TW": {
   "code": "2887",
@@ -85,10 +90,11 @@
   "entry": 34.7,
   "stop": 32.98,
   "peak": 34.7,
-  "last": 34.7,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 33.8,
+  "ret": -2.59,
+  "days": 1,
+  "status": "active",
+  "ma20": 33.04
  },
  "2633.TW": {
   "code": "2633",
@@ -98,10 +104,11 @@
   "entry": 26.1,
   "stop": 25.54,
   "peak": 26.1,
-  "last": 26.1,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 25.85,
+  "ret": -0.96,
+  "days": 1,
+  "status": "active",
+  "ma20": 25.42
  },
  "2889.TW": {
   "code": "2889",
@@ -111,10 +118,11 @@
   "entry": 15.8,
   "stop": 15.55,
   "peak": 15.8,
-  "last": 15.8,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 15.7,
+  "ret": -0.63,
+  "days": 1,
+  "status": "active",
+  "ma20": 15.32
  },
  "3005.TW": {
   "code": "3005",
@@ -124,10 +132,11 @@
   "entry": 116.5,
   "stop": 109.16,
   "peak": 116.5,
-  "last": 116.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 109.5,
+  "ret": -6.01,
+  "days": 1,
+  "status": "active",
+  "ma20": 106.78
  },
  "2208.TW": {
   "code": "2208",
@@ -137,10 +146,11 @@
   "entry": 21.35,
   "stop": 19.8,
   "peak": 21.35,
-  "last": 21.35,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 20.15,
+  "ret": -5.62,
+  "days": 1,
+  "status": "active",
+  "ma20": 19.5
  },
  "3276.TWO": {
   "code": "3276",
@@ -163,10 +173,11 @@
   "entry": 141.5,
   "stop": 134.96,
   "peak": 141.5,
-  "last": 141.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 137.5,
+  "ret": -2.83,
+  "days": 1,
+  "status": "active",
+  "ma20": 135.32
  },
  "1476.TW": {
   "code": "1476",
@@ -176,10 +187,11 @@
   "entry": 343.5,
   "stop": 327.91,
   "peak": 343.5,
-  "last": 343.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 336.5,
+  "ret": -2.04,
+  "days": 1,
+  "status": "active",
+  "ma20": 327.52
  },
  "2603.TW": {
   "code": "2603",
@@ -189,10 +201,11 @@
   "entry": 203.0,
   "stop": 194.43,
   "peak": 203.0,
-  "last": 203.0,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 196.0,
+  "ret": -3.45,
+  "days": 1,
+  "status": "active",
+  "ma20": 191.38
  },
  "2615.TW": {
   "code": "2615",
@@ -202,10 +215,15 @@
   "entry": 85.2,
   "stop": 81.27,
   "peak": 85.2,
-  "last": 85.2,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "last": 80.5,
+  "ret": -5.52,
+  "days": 1,
+  "status": "stopped",
+  "ma20": 78.12,
+  "exit_date": "2026-07-22",
+  "exit": 80.5,
+  "exit_reason": "跌破停損",
+  "max_ret": 0.0
  },
  "8415.TWO": {
   "code": "8415",
@@ -215,7 +233,99 @@
   "entry": 36.65,
   "stop": 35.74,
   "peak": 36.65,
-  "last": 36.65,
+  "last": 36.15,
+  "ret": -1.36,
+  "days": 1,
+  "status": "active",
+  "ma20": 34.64
+ },
+ "1216.TW": {
+  "code": "1216",
+  "name": "統一",
+  "signal": "S1糾結突破",
+  "entry_date": "2026-07-22",
+  "entry": 80.3,
+  "stop": 78.31,
+  "peak": 80.3,
+  "last": 80.3,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "2886.TW": {
+  "code": "2886",
+  "name": "兆豐金",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-07-22",
+  "entry": 48.2,
+  "stop": 46.52,
+  "peak": 48.2,
+  "last": 48.2,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "2884.TW": {
+  "code": "2884",
+  "name": "玉山金",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-07-22",
+  "entry": 35.85,
+  "stop": 34.81,
+  "peak": 35.85,
+  "last": 35.85,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "5515.TW": {
+  "code": "5515",
+  "name": "建國",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-07-22",
+  "entry": 42.75,
+  "stop": 41.45,
+  "peak": 42.75,
+  "last": 42.75,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "2867.TW": {
+  "code": "2867",
+  "name": "三商壽",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-07-22",
+  "entry": 9.23,
+  "stop": 8.96,
+  "peak": 9.23,
+  "last": 9.23,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "9934.TW": {
+  "code": "9934",
+  "name": "成霖",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-07-22",
+  "entry": 10.85,
+  "stop": 10.55,
+  "peak": 10.85,
+  "last": 10.85,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active"
+ },
+ "2206.TW": {
+  "code": "2206",
+  "name": "三陽工業",
+  "signal": "S1糾結突破",
+  "entry_date": "2026-07-22",
+  "entry": 64.8,
+  "stop": 63.29,
+  "peak": 64.8,
+  "last": 64.8,
   "ret": 0.0,
   "days": 0,
   "status": "active"
