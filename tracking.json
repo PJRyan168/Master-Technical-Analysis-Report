@@ -81,7 +81,7 @@
   "peak": 94.7,
   "last": 94.7,
   "ret": 10.5,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 85.35
  },
@@ -113,7 +113,7 @@
   "peak": 37.75,
   "last": 35.95,
   "ret": -0.69,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 35.42
  },
@@ -163,7 +163,7 @@
   "peak": 121.5,
   "last": 117.5,
   "ret": 2.62,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 114.45
  },
@@ -249,7 +249,7 @@
   "peak": 246.0,
   "last": 246.0,
   "ret": 21.18,
-  "days": 23,
+  "days": 24,
   "status": "active",
   "ma20": 214.15
  },
@@ -263,7 +263,7 @@
   "peak": 113.5,
   "last": 113.5,
   "ret": 31.82,
-  "days": 13,
+  "days": 14,
   "status": "active",
   "ma20": 89.99
  },
@@ -295,7 +295,7 @@
   "peak": 78.2,
   "last": 78.2,
   "ret": 0.9,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 75.17
  },
@@ -363,7 +363,7 @@
   "peak": 9.82,
   "last": 9.7,
   "ret": 0.83,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 9.61
  },
@@ -431,7 +431,7 @@
   "peak": 6375.0,
   "last": 6325.0,
   "ret": -0.78,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 5953.75
  },
@@ -477,7 +477,7 @@
   "peak": 34.5,
   "last": 34.5,
   "ret": 5.34,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 32.68
  },
@@ -508,9 +508,10 @@
   "stop": 45.47,
   "peak": 47.05,
   "last": 47.05,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "ret": -0.0,
+  "days": 1,
+  "status": "active",
+  "ma20": 45.05
  },
  "2006.TW": {
   "code": "2006",
@@ -522,7 +523,7 @@
   "peak": 88.5,
   "last": 82.0,
   "ret": 14.21,
-  "days": 19,
+  "days": 20,
   "status": "active",
   "ma20": 79.97
  },
@@ -716,7 +717,7 @@
   "peak": 60.3,
   "last": 60.3,
   "ret": 18.7,
-  "days": 13,
+  "days": 14,
   "status": "active",
   "ma20": 52.3
  },
@@ -730,7 +731,7 @@
   "peak": 996.0,
   "last": 913.0,
   "ret": 19.97,
-  "days": 16,
+  "days": 17,
   "status": "active",
   "ma20": 839.0
  },
@@ -798,7 +799,7 @@
   "peak": 111.5,
   "last": 106.0,
   "ret": 21.28,
-  "days": 16,
+  "days": 17,
   "status": "active",
   "ma20": 94.28
  },
@@ -812,8 +813,9 @@
   "peak": 35.5,
   "last": 35.5,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 33.9
  },
  "2915.TW": {
   "code": "2915",
@@ -825,7 +827,7 @@
   "peak": 61.8,
   "last": 61.6,
   "ret": 20.55,
-  "days": 16,
+  "days": 17,
   "status": "active",
   "ma20": 54.36
  },
@@ -839,7 +841,7 @@
   "peak": 50.5,
   "last": 50.5,
   "ret": 15.56,
-  "days": 15,
+  "days": 16,
   "status": "active",
   "ma20": 46.25
  },
@@ -853,7 +855,7 @@
   "peak": 87.5,
   "last": 81.5,
   "ret": -3.21,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 79.83
  },
@@ -957,7 +959,7 @@
   "peak": 48.3,
   "last": 48.3,
   "ret": 8.91,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 45.0
  },
@@ -971,7 +973,7 @@
   "peak": 177.5,
   "last": 158.0,
   "ret": 2.93,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 146.38
  },
@@ -985,7 +987,7 @@
   "peak": 94.8,
   "last": 89.7,
   "ret": 0.79,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 88.27
  },
@@ -1053,7 +1055,7 @@
   "peak": 322.0,
   "last": 319.0,
   "ret": 0.16,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 299.57
  },
@@ -1139,7 +1141,7 @@
   "peak": 283.0,
   "last": 283.0,
   "ret": 24.67,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 225.18
  },
@@ -1167,7 +1169,7 @@
   "peak": 5550.0,
   "last": 5515.0,
   "ret": 20.28,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 4445.66
  },
@@ -1181,7 +1183,7 @@
   "peak": 29.95,
   "last": 27.1,
   "ret": -2.17,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 26.7
  },
@@ -1231,7 +1233,7 @@
   "peak": 11.9,
   "last": 11.75,
   "ret": 0.0,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 11.15
  },
@@ -1263,7 +1265,7 @@
   "peak": 42.9,
   "last": 42.5,
   "ret": -0.93,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 39.1
  },
@@ -1277,7 +1279,7 @@
   "peak": 70.2,
   "last": 70.2,
   "ret": 5.88,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 65.29
  },
@@ -1309,7 +1311,7 @@
   "peak": 742.0,
   "last": 698.0,
   "ret": -3.72,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 679.2
  },
@@ -1323,7 +1325,7 @@
   "peak": 55.3,
   "last": 55.3,
   "ret": 4.14,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 49.85
  },
@@ -1337,7 +1339,7 @@
   "peak": 61.5,
   "last": 61.5,
   "ret": 0.65,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 59.52
  },
@@ -1351,7 +1353,7 @@
   "peak": 148.0,
   "last": 144.0,
   "ret": -2.7,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 140.6
  },
@@ -1365,7 +1367,7 @@
   "peak": 204.0,
   "last": 204.0,
   "ret": 0.0,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 193.0
  },
@@ -1379,7 +1381,7 @@
   "peak": 10.0,
   "last": 10.0,
   "ret": 0.6,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 9.3
  },
@@ -1393,7 +1395,7 @@
   "peak": 36.75,
   "last": 36.4,
   "ret": 10.64,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 32.49
  },
@@ -1407,7 +1409,7 @@
   "peak": 45.3,
   "last": 43.25,
   "ret": 0.12,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 41.75
  },
@@ -1421,7 +1423,7 @@
   "peak": 20.45,
   "last": 20.45,
   "ret": 2.51,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 19.44
  },
@@ -1435,7 +1437,7 @@
   "peak": 694.0,
   "last": 673.0,
   "ret": -0.88,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 626.5
  },
@@ -1449,7 +1451,7 @@
   "peak": 12.7,
   "last": 12.55,
   "ret": -1.18,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 12.29
  },
@@ -1463,8 +1465,9 @@
   "peak": 46.65,
   "last": 46.65,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 45.01
  },
  "2520.TW": {
   "code": "2520",
@@ -1476,7 +1479,7 @@
   "peak": 36.7,
   "last": 36.55,
   "ret": 1.81,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 34.18
  },
@@ -1490,7 +1493,7 @@
   "peak": 1065.0,
   "last": 1040.0,
   "ret": -2.35,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 986.3
  },
@@ -1504,7 +1507,7 @@
   "peak": 44.2,
   "last": 44.2,
   "ret": 9.95,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 36.52
  },
@@ -1518,7 +1521,7 @@
   "peak": 30.95,
   "last": 30.95,
   "ret": 0.16,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 29.06
  },
@@ -1532,7 +1535,7 @@
   "peak": 11.65,
   "last": 11.65,
   "ret": 0.87,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 11.07
  },
@@ -1546,7 +1549,7 @@
   "peak": 375.5,
   "last": 374.0,
   "ret": -0.4,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 353.53
  },
@@ -1560,7 +1563,7 @@
   "peak": 64.9,
   "last": 64.2,
   "ret": -1.08,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 61.43
  },
@@ -1574,7 +1577,7 @@
   "peak": 16.0,
   "last": 16.0,
   "ret": 3.23,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 14.15
  },
@@ -1588,7 +1591,7 @@
   "peak": 13.55,
   "last": 13.55,
   "ret": 1.5,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 12.91
  },
@@ -1602,7 +1605,7 @@
   "peak": 111.5,
   "last": 111.5,
   "ret": 1.36,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 107.19
  },
@@ -1616,7 +1619,7 @@
   "peak": 18.35,
   "last": 18.35,
   "ret": 0.0,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 17.28
  },
@@ -1630,7 +1633,7 @@
   "peak": 31.0,
   "last": 31.0,
   "ret": 0.32,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 30.21
  },
@@ -1644,7 +1647,7 @@
   "peak": 66.3,
   "last": 66.3,
   "ret": 2.63,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 61.27
  },
@@ -1658,7 +1661,7 @@
   "peak": 42.05,
   "last": 42.05,
   "ret": 1.45,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 40.97
  },
@@ -1690,7 +1693,7 @@
   "peak": 29.2,
   "last": 29.2,
   "ret": 1.39,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 27.89
  },
@@ -1722,7 +1725,7 @@
   "peak": 57.6,
   "last": 57.6,
   "ret": 1.05,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 54.7
  },
@@ -1736,7 +1739,7 @@
   "peak": 266.0,
   "last": 266.0,
   "ret": 2.31,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "ma20": 247.19
  },
@@ -1750,8 +1753,9 @@
   "peak": 29.2,
   "last": 29.2,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 27.38
  },
  "1904.TW": {
   "code": "1904",
@@ -1763,8 +1767,9 @@
   "peak": 25.5,
   "last": 25.5,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 22.95
  },
  "2607.TW": {
   "code": "2607",
@@ -1775,9 +1780,10 @@
   "stop": 50.39,
   "peak": 51.8,
   "last": 51.8,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "ret": -0.0,
+  "days": 1,
+  "status": "active",
+  "ma20": 48.53
  },
  "2727.TW": {
   "code": "2727",
@@ -1789,8 +1795,9 @@
   "peak": 237.0,
   "last": 237.0,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 230.93
  },
  "1513.TW": {
   "code": "1513",
@@ -1802,8 +1809,9 @@
   "peak": 166.0,
   "last": 166.0,
   "ret": 0.0,
-  "days": 0,
-  "status": "active"
+  "days": 1,
+  "status": "active",
+  "ma20": 160.35
  },
  "1532.TW": {
   "code": "1532",
@@ -1815,7 +1823,23 @@
   "peak": 22.95,
   "last": 22.95,
   "ret": 0.0,
+  "days": 1,
+  "status": "active",
+  "ma20": 21.93
+ },
+ "1563.TW": {
+  "code": "1563",
+  "name": "巧新",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-08-20",
+  "entry": 63.5,
+  "stop": 60.5,
+  "peak": 63.5,
+  "last": 63.5,
+  "ret": 0.0,
   "days": 0,
-  "status": "active"
+  "status": "active",
+  "score": 71,
+  "risk": 4.72
  }
 }
