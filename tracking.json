@@ -9,10 +9,11 @@
   "peak": 24.1,
   "last": 24.1,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 76,
-  "risk": 2.41
+  "risk": 2.41,
+  "ma20": 23.55
  },
  "5871.TW": {
   "code": "5871",
@@ -78,7 +79,7 @@
   "peak": 102.0,
   "last": 102.0,
   "ret": 19.02,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 86.26
  },
@@ -110,7 +111,7 @@
   "peak": 37.75,
   "last": 37.25,
   "ret": 2.9,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 35.58
  },
@@ -123,11 +124,12 @@
   "stop": 25.8,
   "peak": 26.15,
   "last": 26.15,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 70,
-  "risk": 1.34
+  "risk": 1.34,
+  "ma20": 25.94
  },
  "2889.TW": {
   "code": "2889",
@@ -157,7 +159,7 @@
   "peak": 121.5,
   "last": 117.0,
   "ret": 2.18,
-  "days": 9,
+  "days": 10,
   "status": "active",
   "ma20": 114.65
  },
@@ -243,7 +245,7 @@
   "peak": 251.5,
   "last": 251.5,
   "ret": 23.89,
-  "days": 25,
+  "days": 26,
   "status": "active",
   "ma20": 216.43
  },
@@ -257,7 +259,7 @@
   "peak": 124.5,
   "last": 124.5,
   "ret": 44.6,
-  "days": 15,
+  "days": 16,
   "status": "active",
   "ma20": 91.87
  },
@@ -289,7 +291,7 @@
   "peak": 78.2,
   "last": 77.5,
   "ret": 0.0,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 75.32
  },
@@ -357,7 +359,7 @@
   "peak": 9.82,
   "last": 9.7,
   "ret": 0.83,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 9.63
  },
@@ -425,7 +427,7 @@
   "peak": 6375.0,
   "last": 6255.0,
   "ret": -1.88,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 5980.0
  },
@@ -471,7 +473,7 @@
   "peak": 37.0,
   "last": 37.0,
   "ret": 12.98,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 32.92
  },
@@ -503,7 +505,7 @@
   "peak": 47.5,
   "last": 47.5,
   "ret": 0.96,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 45.15
  },
@@ -517,7 +519,7 @@
   "peak": 88.5,
   "last": 81.6,
   "ret": 13.65,
-  "days": 21,
+  "days": 22,
   "status": "active",
   "ma20": 80.46
  },
@@ -711,7 +713,7 @@
   "peak": 64.0,
   "last": 64.0,
   "ret": 25.98,
-  "days": 15,
+  "days": 16,
   "status": "active",
   "ma20": 52.92
  },
@@ -725,7 +727,7 @@
   "peak": 996.0,
   "last": 921.0,
   "ret": 21.02,
-  "days": 18,
+  "days": 19,
   "status": "active",
   "ma20": 846.5
  },
@@ -793,7 +795,7 @@
   "peak": 111.5,
   "last": 107.5,
   "ret": 23.0,
-  "days": 18,
+  "days": 19,
   "status": "active",
   "ma20": 95.22
  },
@@ -807,7 +809,7 @@
   "peak": 36.1,
   "last": 36.1,
   "ret": 1.69,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 34.07
  },
@@ -821,7 +823,7 @@
   "peak": 61.8,
   "last": 61.1,
   "ret": 19.57,
-  "days": 18,
+  "days": 19,
   "status": "active",
   "ma20": 54.84
  },
@@ -835,7 +837,7 @@
   "peak": 50.5,
   "last": 50.3,
   "ret": 15.1,
-  "days": 17,
+  "days": 18,
   "status": "active",
   "ma20": 46.59
  },
@@ -849,7 +851,7 @@
   "peak": 87.5,
   "last": 81.1,
   "ret": -3.68,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 79.98
  },
@@ -935,10 +937,11 @@
   "peak": 22.95,
   "last": 22.95,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 78,
-  "risk": 3.27
+  "risk": 3.27,
+  "ma20": 22.06
  },
  "2542.TW": {
   "code": "2542",
@@ -950,7 +953,7 @@
   "peak": 48.8,
   "last": 48.8,
   "ret": 10.03,
-  "days": 10,
+  "days": 11,
   "status": "active",
   "ma20": 45.23
  },
@@ -964,7 +967,7 @@
   "peak": 177.5,
   "last": 150.0,
   "ret": -2.28,
-  "days": 10,
+  "days": 11,
   "status": "active",
   "ma20": 146.62
  },
@@ -978,7 +981,7 @@
   "peak": 94.8,
   "last": 88.6,
   "ret": -0.45,
-  "days": 9,
+  "days": 10,
   "status": "active",
   "ma20": 88.28
  },
@@ -1046,7 +1049,7 @@
   "peak": 322.0,
   "last": 318.5,
   "ret": 0.0,
-  "days": 9,
+  "days": 10,
   "status": "active",
   "ma20": 301.69
  },
@@ -1095,11 +1098,12 @@
   "stop": 29.87,
   "peak": 31.4,
   "last": 31.4,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 78,
-  "risk": 4.87
+  "risk": 4.87,
+  "ma20": 28.67
  },
  "3231.TW": {
   "code": "3231",
@@ -1129,7 +1133,7 @@
   "peak": 283.0,
   "last": 282.0,
   "ret": 24.23,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 227.28
  },
@@ -1157,7 +1161,7 @@
   "peak": 5610.0,
   "last": 5610.0,
   "ret": 22.36,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 4531.94
  },
@@ -1171,7 +1175,7 @@
   "peak": 29.95,
   "last": 27.0,
   "ret": -2.53,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "ma20": 26.84
  },
@@ -1221,7 +1225,7 @@
   "peak": 12.0,
   "last": 12.0,
   "ret": 2.13,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "ma20": 11.21
  },
@@ -1253,7 +1257,7 @@
   "peak": 42.9,
   "last": 42.15,
   "ret": -1.75,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 39.21
  },
@@ -1267,7 +1271,7 @@
   "peak": 72.6,
   "last": 72.6,
   "ret": 9.5,
-  "days": 6,
+  "days": 7,
   "status": "active",
   "ma20": 65.72
  },
@@ -1317,7 +1321,7 @@
   "peak": 55.9,
   "last": 55.9,
   "ret": 5.27,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 50.24
  },
@@ -1331,7 +1335,7 @@
   "peak": 63.0,
   "last": 63.0,
   "ret": 3.11,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 59.77
  },
@@ -1363,7 +1367,7 @@
   "peak": 204.0,
   "last": 203.5,
   "ret": -0.25,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 193.7
  },
@@ -1377,7 +1381,7 @@
   "peak": 10.1,
   "last": 10.1,
   "ret": 1.61,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 9.34
  },
@@ -1391,7 +1395,7 @@
   "peak": 37.8,
   "last": 37.8,
   "ret": 14.89,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 32.76
  },
@@ -1405,7 +1409,7 @@
   "peak": 45.3,
   "last": 42.45,
   "ret": -1.74,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 41.72
  },
@@ -1419,7 +1423,7 @@
   "peak": 20.45,
   "last": 20.45,
   "ret": 2.51,
-  "days": 5,
+  "days": 6,
   "status": "active",
   "ma20": 19.5
  },
@@ -1451,7 +1455,7 @@
   "peak": 12.9,
   "last": 12.9,
   "ret": 1.57,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 12.35
  },
@@ -1465,7 +1469,7 @@
   "peak": 47.1,
   "last": 47.1,
   "ret": 0.96,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 45.15
  },
@@ -1479,7 +1483,7 @@
   "peak": 36.8,
   "last": 36.8,
   "ret": 2.51,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 34.35
  },
@@ -1493,7 +1497,7 @@
   "peak": 1065.0,
   "last": 995.0,
   "ret": -6.57,
-  "days": 4,
+  "days": 5,
   "status": "active",
   "ma20": 985.3
  },
@@ -1507,7 +1511,7 @@
   "peak": 47.1,
   "last": 47.1,
   "ret": 17.16,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 37.11
  },
@@ -1521,7 +1525,7 @@
   "peak": 31.8,
   "last": 31.8,
   "ret": 2.91,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 29.19
  },
@@ -1535,7 +1539,7 @@
   "peak": 11.7,
   "last": 11.7,
   "ret": 1.3,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 11.1
  },
@@ -1549,7 +1553,7 @@
   "peak": 375.5,
   "last": 372.0,
   "ret": -0.93,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 356.0
  },
@@ -1581,7 +1585,7 @@
   "peak": 17.2,
   "last": 17.2,
   "ret": 10.97,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 14.3
  },
@@ -1595,7 +1599,7 @@
   "peak": 14.0,
   "last": 14.0,
   "ret": 4.87,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 12.97
  },
@@ -1609,7 +1613,7 @@
   "peak": 111.5,
   "last": 111.0,
   "ret": 0.91,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 107.54
  },
@@ -1623,7 +1627,7 @@
   "peak": 18.95,
   "last": 18.95,
   "ret": 3.27,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 17.37
  },
@@ -1637,7 +1641,7 @@
   "peak": 31.0,
   "last": 30.7,
   "ret": -0.65,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 30.25
  },
@@ -1651,7 +1655,7 @@
   "peak": 66.3,
   "last": 64.7,
   "ret": 0.15,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 61.44
  },
@@ -1665,7 +1669,7 @@
   "peak": 42.4,
   "last": 42.4,
   "ret": 2.29,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 41.01
  },
@@ -1697,7 +1701,7 @@
   "peak": 29.3,
   "last": 29.3,
   "ret": 1.74,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 27.96
  },
@@ -1729,7 +1733,7 @@
   "peak": 57.6,
   "last": 56.5,
   "ret": -0.88,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 54.79
  },
@@ -1743,7 +1747,7 @@
   "peak": 276.0,
   "last": 276.0,
   "ret": 6.15,
-  "days": 3,
+  "days": 4,
   "status": "active",
   "ma20": 250.4
  },
@@ -1757,7 +1761,7 @@
   "peak": 30.35,
   "last": 30.35,
   "ret": 3.94,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 27.53
  },
@@ -1771,7 +1775,7 @@
   "peak": 25.7,
   "last": 25.7,
   "ret": 0.78,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 23.16
  },
@@ -1785,7 +1789,7 @@
   "peak": 52.4,
   "last": 52.4,
   "ret": 1.16,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 48.76
  },
@@ -1799,7 +1803,7 @@
   "peak": 237.5,
   "last": 237.5,
   "ret": 0.21,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 231.78
  },
@@ -1813,7 +1817,7 @@
   "peak": 166.0,
   "last": 166.0,
   "ret": 0.0,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 160.75
  },
@@ -1827,7 +1831,7 @@
   "peak": 23.1,
   "last": 23.1,
   "ret": 0.65,
-  "days": 2,
+  "days": 3,
   "status": "active",
   "ma20": 21.96
  },
@@ -1841,7 +1845,7 @@
   "peak": 63.5,
   "last": 63.5,
   "ret": 0.0,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "score": 71,
   "risk": 4.72,
@@ -1857,10 +1861,11 @@
   "peak": 73.3,
   "last": 73.3,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 88,
-  "risk": 3.68
+  "risk": 3.68,
+  "ma20": 67.33
  },
  "2612.TW": {
   "code": "2612",
@@ -1872,10 +1877,11 @@
   "peak": 60.2,
   "last": 60.2,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 88,
-  "risk": 4.35
+  "risk": 4.35,
+  "ma20": 54.33
  },
  "6472.TW": {
   "code": "6472",
@@ -1887,10 +1893,11 @@
   "peak": 455.0,
   "last": 455.0,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 84,
-  "risk": 5.91
+  "risk": 5.91,
+  "ma20": 408.2
  },
  "1319.TW": {
   "code": "1319",
@@ -1902,10 +1909,11 @@
   "peak": 82.8,
   "last": 82.8,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 80,
-  "risk": 1.93
+  "risk": 1.93,
+  "ma20": 76.87
  },
  "1612.TW": {
   "code": "1612",
@@ -1917,10 +1925,11 @@
   "peak": 34.65,
   "last": 34.65,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 79,
-  "risk": 1.59
+  "risk": 1.59,
+  "ma20": 32.44
  },
  "2031.TW": {
   "code": "2031",
@@ -1931,11 +1940,12 @@
   "stop": 43.73,
   "peak": 46.35,
   "last": 46.35,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 78,
-  "risk": 5.65
+  "risk": 5.65,
+  "ma20": 42.64
  },
  "2344.TW": {
   "code": "2344",
@@ -1947,10 +1957,11 @@
   "peak": 181.0,
   "last": 181.0,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 73,
-  "risk": 8.84
+  "risk": 8.84,
+  "ma20": 163.22
  },
  "1316.TW": {
   "code": "1316",
@@ -1961,11 +1972,12 @@
   "stop": 10.75,
   "peak": 11.2,
   "last": 11.2,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 73,
-  "risk": 4.02
+  "risk": 4.02,
+  "ma20": 10.18
  },
  "2501.TW": {
   "code": "2501",
@@ -1976,11 +1988,12 @@
   "stop": 22.55,
   "peak": 23.15,
   "last": 23.15,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 72,
-  "risk": 2.59
+  "risk": 2.59,
+  "ma20": 22.54
  },
  "8473.TW": {
   "code": "8473",
@@ -1991,11 +2004,12 @@
   "stop": 45.0,
   "peak": 46.35,
   "last": 46.35,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 72,
-  "risk": 2.91
+  "risk": 2.91,
+  "ma20": 42.91
  },
  "6279.TWO": {
   "code": "6279",
@@ -2007,10 +2021,11 @@
   "peak": 128.0,
   "last": 128.0,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 70,
-  "risk": 3.12
+  "risk": 3.12,
+  "ma20": 122.75
  },
  "2484.TW": {
   "code": "2484",
@@ -2022,10 +2037,11 @@
   "peak": 76.5,
   "last": 76.5,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 70,
-  "risk": 10.24
+  "risk": 10.24,
+  "ma20": 70.08
  },
  "2614.TW": {
   "code": "2614",
@@ -2036,11 +2052,12 @@
   "stop": 18.34,
   "peak": 18.8,
   "last": 18.8,
-  "ret": 0.0,
-  "days": 0,
+  "ret": -0.0,
+  "days": 1,
   "status": "active",
   "score": 70,
-  "risk": 2.45
+  "risk": 2.45,
+  "ma20": 18.13
  },
  "1217.TW": {
   "code": "1217",
@@ -2052,9 +2069,10 @@
   "peak": 10.05,
   "last": 10.05,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 70,
-  "risk": 1.39
+  "risk": 1.39,
+  "ma20": 9.91
  }
 }
