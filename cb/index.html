@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MA選股 2026-08-22</title>
+<style>
+:root{
+  --bg:#101418; --surface:#1a2027; --line:#2a323c;
+  --tx:#e8ecf1; --mut:#8a94a3;
+  --red:#f0544f; --green:#3dbb7d; --amber:#f5b942;
+  --mono:ui-monospace,'SF Mono','Cascadia Mono',Consolas,monospace;
+  --sans:-apple-system,'PingFang TC','Microsoft JhengHei',system-ui,sans-serif;
+}
+*{margin:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--tx);font-family:var(--sans);
+     font-size:14px;padding:0 12px 60px}
+.wrap{max-width:1080px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;
+       padding:20px 0 4px}
+h1{font-size:16px;font-weight:600;letter-spacing:.08em;color:var(--mut)}
+.date{font-family:var(--mono);font-size:26px;font-weight:700}
+a.nav{color:var(--amber);text-decoration:none;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:5px 10px}
+a.nav:hover{background:var(--surface)}
+.navbar{display:inline-flex;gap:6px;flex-wrap:wrap}
+.navcur{font-size:13px;border:1px solid var(--amber);border-radius:6px;padding:5px 10px;color:var(--amber);background:rgba(245,185,66,.08)}
+select{background:var(--surface);color:var(--tx);border:1px solid var(--line);
+       border-radius:6px;padding:5px 8px;font-size:13px;margin-left:auto}
+.stats{display:flex;gap:0;border:1px solid var(--line);border-radius:8px;
+       overflow:hidden;margin:14px 0;font-family:var(--mono)}
+.stats div{flex:1;padding:10px 4px;text-align:center;background:var(--surface)}
+.stats div+div{border-left:1px solid var(--line)}
+.stats b{display:block;font-size:20px}
+.stats span{font-size:11px;color:var(--mut);font-family:var(--sans)}
+.stats .a b{color:var(--amber)}
+/* A級磁磚 (signature) */
+.tksec{margin:14px 0}
+.tkh{font-size:13px;color:var(--mut);margin-bottom:8px;font-weight:500}
+.tkgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
+.tk{background:var(--surface);border:1px solid var(--line);border-left-width:3px;
+    border-radius:7px;padding:9px 12px;font-family:var(--mono);
+    display:block;text-decoration:none;color:var(--tx);
+    transition:border-color .12s,background .12s}
+.tk:hover{background:#212932;border-color:var(--mut)}
+.tk .tc{font-size:14px;font-weight:600}
+.tk .tr{float:right;font-size:15px;font-weight:700}
+.tk .td2{display:block;font-family:var(--sans);font-size:11px;color:var(--mut);margin-top:3px}
+.tk.up{border-left-color:var(--red)}.tk.up .tr{color:var(--red)}
+.tk.dn{border-left-color:var(--green)}.tk.dn .tr{color:var(--green)}
+.tk.out{border-left-color:var(--mut);opacity:.75}.tk.out .tr{color:var(--mut)}
+.tk.new{border-left-color:var(--amber);background:linear-gradient(160deg,#2a2418,var(--surface))}
+.tk.new .tr{color:var(--amber)}
+.tkh.nh{color:var(--amber)}
+.tkh .sub{color:var(--mut);font-weight:400;font-size:11px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+       gap:8px;margin:0 0 16px}
+.tile{background:linear-gradient(160deg,#c03d3a,#8f2724);border-radius:8px;
+      padding:10px 12px;color:#fff;font-family:var(--mono);
+      display:block;text-decoration:none}
+.tile .c{font-size:17px;font-weight:700}
+.tile .s{float:right;font-size:22px;font-weight:700;color:#ffe08a}
+.tile .d{clear:both;display:block;font-size:11px;opacity:.85;
+         font-family:var(--sans);margin-top:4px}
+/* 控制列 */
+.bar{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px;align-items:center}
+.chip{background:var(--surface);border:1px solid var(--line);color:var(--mut);
+      border-radius:15px;padding:5px 13px;font-size:13px;cursor:pointer}
+.chip.on{color:var(--tx);border-color:var(--mut)}
+input[type=search]{background:var(--surface);border:1px solid var(--line);
+      color:var(--tx);border-radius:6px;padding:6px 10px;font-size:14px;
+      width:110px;margin-left:auto}
+/* 表格 */
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;
+   cursor:grab;overscroll-behavior-x:contain}
+.tblwrap.drag{cursor:grabbing;user-select:none}
+.tblwrap.drag a{pointer-events:none}
+table{border-collapse:collapse;width:100%;min-width:920px;
+      font-family:var(--mono);font-size:13px}
+th{position:sticky;top:0;background:var(--surface);color:var(--mut);
+   font-family:var(--sans);font-weight:500;font-size:12px;text-align:right;
+   padding:9px 10px;white-space:nowrap;cursor:pointer;user-select:none;
+   border-bottom:1px solid var(--line);transition:color .1s,background .1s}
+th:hover{color:var(--tx);background:#222b35}
+th:hover::after{content:' ⇅';opacity:.4}
+th.sorted:hover::after{content:''}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;
+   background:var(--bg);min-width:70px}
+th:first-child{background:var(--surface);z-index:2}
+/* 寬螢幕: 名稱欄一併凍結, 橫向捲動時仍看得到是哪檔股票 */
+@media(min-width:700px){
+  th:nth-child(2),td:nth-child(2){position:sticky;left:70px;
+    background:var(--bg);min-width:96px}
+  th:nth-child(2){background:var(--surface);z-index:2}
+  td:nth-child(2){box-shadow:inset -1px 0 0 var(--line)}
+  th:nth-child(2){box-shadow:inset -1px 0 0 var(--line)}
+}
+th.sorted{color:var(--amber);box-shadow:inset 0 -2px 0 var(--amber)}
+td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);
+   white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tr.a td:first-child{box-shadow:inset 3px 0 0 var(--amber)}
+.pos{color:var(--red)}   /* 台股慣例: 紅=買超/多方 */
+.neg{color:var(--green)} /* 綠=賣超/空方 */
+.grade-a{color:var(--amber);font-weight:700}
+.sig{font-family:var(--sans);font-size:12px;color:var(--mut)}
+td.nm{text-align:left;font-family:var(--sans)}
+td.gp{color:var(--mut);font-size:12px}
+td.th{color:var(--amber);font-size:12px;opacity:.85}
+td.fut{color:#6cb6ff;font-family:var(--mono);font-size:12px}
+th:nth-child(3),th:nth-child(4){text-align:left}
+a.lk{color:inherit;text-decoration:underline;text-decoration-color:var(--mut);text-underline-offset:3px}
+a.lk:hover{color:var(--amber)}
+th:nth-child(2){text-align:left}
+.scorebar{display:inline-block;width:34px;height:5px;background:var(--line);
+   border-radius:3px;margin-left:6px;vertical-align:2px;overflow:hidden}
+.scorebar i{display:block;height:100%;background:var(--red)}
+tr.a .scorebar i{background:var(--amber)}
+footer{color:var(--mut);font-size:11px;margin-top:14px;line-height:1.7}
+@media(max-width:480px){.date{font-size:21px}.stats b{font-size:17px}}
+</style></head>
+<body><div class="wrap">
+<header><h1>MA 掃描 · 可轉債池</h1><span class="date">2026-08-22</span>
+<span class="navbar"><a class="nav" href="../index.html">全市場</a> <a class="nav" href="../futures/index.html">期貨池</a> <span class="navcur">可轉債池</span></span><select id="hist"><option value="">歷史報告</option><option value="history/2026-08-22.html" selected>2026-08-22</option></select></header>
+<div class="stats">
+  <div><b>15</b><span>掃描檔數</span></div>
+  <div class="a"><b>0</b><span>A級 ≥85</span></div>
+  <div><b>0</b><span>觀察 ≥70</span></div>
+  <div><b>15</b><span>入榜 &gt;0分</span></div>
+</div>
+<div class="tiles"><div style="color:var(--mut);font-size:13px;padding:2px 0 4px">今日無 A級訊號</div></div>
+<div class="bar">
+  <span class="chip on" data-f="全部">全部</span>
+  <span class="chip" data-f="A級">A級</span>
+  <span class="chip" data-f="S1突破">S1突破</span>
+  <span class="chip" data-f="S2回踩">S2回踩</span>
+  <input type="search" id="q" placeholder="代號/名稱/產業/題材">
+</div>
+<div class="tblwrap"><table><thead id="hd"></thead><tbody id="tb"></tbody></table></div>
+<footer>顯示 <span id="cnt"></span> 檔 · 點欄位標題排序 · 表格可直接拖曳左右移動 (或 Shift+滾輪) · 紅=買超/多方, 綠=賣超(台股慣例)<br>
+產生於 2026-08-22 02:06 (台北) · 訊號為量化模型輸出, 僅供研究參考, 非投資建議</footer>
+</div>
+<script>window.__COLS__=[["代號", "代號"], ["名稱", "名稱"], ["產業", "產業"], ["題材", "題材"], ["評分", "評分"], ["等級", "等級"], ["訊號", "訊號"], ["進場參考", "進場"], ["停損", "停損"], ["風險%", "風險%"], ["MA20斜率", "MA20斜率"], ["乖離%", "乖離%"], ["量能比", "量比"], ["外投3日買超(張)", "外投3日(張)"], ["投信連買", "投信連買"]];
+window.__DATA__=[{"_tk": "8112.TW", "代號": "8112", "名稱": "至上", "產業": "電子通路業", "題材": "", "評分": 39, "等級": "不符", "訊號": "-", "MA20斜率": 0.094, "乖離%": 6.01, "量能比": 0.75, "外投3日買超(張)": 1425.9, "投信連買": 2, "進場參考": 93.7, "停損": 88.3, "風險%": 5.76}, {"_tk": "2897.TW", "代號": "2897", "名稱": "王道銀行", "產業": "金融保險業", "題材": "", "評分": 39, "等級": "不符", "訊號": "-", "MA20斜率": 0.088, "乖離%": 0.66, "量能比": 0.55, "外投3日買超(張)": 4058.0, "投信連買": 0, "進場參考": 10.25, "停損": 10.07, "風險%": 1.76}, {"_tk": "2882.TW", "代號": "2882", "名稱": "國泰金", "產業": "金融保險業", "題材": "", "評分": 38, "等級": "不符", "訊號": "-", "MA20斜率": 0.062, "乖離%": -0.98, "量能比": 0.96, "外投3日買超(張)": 6196.0, "投信連買": 0, "進場參考": 97.7, "停損": 97.0, "風險%": 0.72}, {"_tk": "9941.TW", "代號": "9941", "名稱": "裕融", "產業": "其他業", "題材": "", "評分": 38, "等級": "不符", "訊號": "-", "MA20斜率": 0.074, "乖離%": 2.36, "量能比": 0.76, "外投3日買超(張)": 764.3, "投信連買": 2, "進場參考": 85.4, "停損": 83.4, "風險%": 2.34}, {"_tk": "1101.TW", "代號": "1101", "名稱": "台泥", "產業": "水泥工業", "題材": "", "評分": 37, "等級": "不符", "訊號": "-", "MA20斜率": 0.044, "乖離%": 2.29, "量能比": 0.97, "外投3日買超(張)": 23294.8, "投信連買": 0, "進場參考": 24.8, "停損": 24.04, "風險%": 3.06}, {"_tk": "2002.TW", "代號": "2002", "名稱": "中鋼", "產業": "鋼鐵工業", "題材": "", "評分": 37, "等級": "不符", "訊號": "-", "MA20斜率": 0.057, "乖離%": 1.22, "量能比": 0.83, "外投3日買超(張)": 47519.6, "投信連買": 0, "進場參考": 19.35, "停損": 18.85, "風險%": 2.58}, {"_tk": "2881.TW", "代號": "2881", "名稱": "富邦金", "產業": "金融保險業", "題材": "", "評分": 37, "等級": "不符", "訊號": "-", "MA20斜率": 0.041, "乖離%": 0.25, "量能比": 0.92, "外投3日買超(張)": 17966.8, "投信連買": 0, "進場參考": 128.0, "停損": 123.5, "風險%": 3.52}, {"_tk": "2883.TW", "代號": "2883", "名稱": "凱基金", "產業": "金融保險業", "題材": "", "評分": 37, "等級": "不符", "訊號": "-", "MA20斜率": 0.055, "乖離%": -0.9, "量能比": 1.03, "外投3日買超(張)": 28477.7, "投信連買": 0, "進場參考": 30.4, "停損": 30.05, "風險%": 1.15}, {"_tk": "2887.TW", "代號": "2887", "名稱": "台新新光金", "產業": "金融保險業", "題材": "", "評分": 31, "等級": "不符", "訊號": "-", "MA20斜率": 0.12, "乖離%": 1.5, "量能比": 1.12, "外投3日買超(張)": -1124.8, "投信連買": 0, "進場參考": 35.95, "停損": 35.7, "風險%": 0.7}, {"_tk": "2891.TW", "代號": "2891", "名稱": "中信金", "產業": "金融保險業", "題材": "", "評分": 28, "等級": "不符", "訊號": "-", "MA20斜率": 0.078, "乖離%": -2.27, "量能比": 0.81, "外投3日買超(張)": -27848.3, "投信連買": 0, "進場參考": 63.4, "停損": 62.1, "風險%": 2.05}, {"_tk": "2836.TW", "代號": "2836", "名稱": "高雄銀", "產業": "金融保險業", "題材": "", "評分": 20, "等級": "不符", "訊號": "-", "MA20斜率": -0.082, "乖離%": 0.7, "量能比": 0.4, "外投3日買超(張)": 1019.4, "投信連買": 0, "進場參考": 12.1, "停損": 11.86, "風險%": 1.98}, {"_tk": "2348.TW", "代號": "2348", "名稱": "海悅", "產業": "其他業", "題材": "", "評分": 20, "等級": "不符", "訊號": "-", "MA20斜率": -0.016, "乖離%": 2.46, "量能比": 0.62, "外投3日買超(張)": 737.1, "投信連買": 0, "進場參考": 71.8, "停損": 68.87, "風險%": 4.08}, {"_tk": "2838.TW", "代號": "2838", "名稱": "聯邦銀", "產業": "金融保險業", "題材": "", "評分": 20, "等級": "不符", "訊號": "-", "MA20斜率": -0.049, "乖離%": -0.8, "量能比": 0.61, "外投3日買超(張)": 535.0, "投信連買": 0, "進場參考": 20.15, "停損": 19.8, "風險%": 1.74}, {"_tk": "5871.TW", "代號": "5871", "名稱": "中租-KY", "產業": "其他業", "題材": "", "評分": 20, "等級": "不符", "訊號": "-", "MA20斜率": -0.066, "乖離%": 0.13, "量能比": 0.64, "外投3日買超(張)": 9362.0, "投信連買": 1, "進場參考": 111.5, "停損": 108.5, "風險%": 2.69}, {"_tk": "1522.TW", "代號": "1522", "名稱": "堤維西", "產業": "汽車工業", "題材": "", "評分": 10, "等級": "不符", "訊號": "-", "MA20斜率": -0.053, "乖離%": -0.61, "量能比": 0.57, "外投3日買超(張)": 114.0, "投信連買": 0, "進場參考": 27.85, "停損": 27.5, "風險%": 1.26}]</script>
+<script>
+const D = window.__DATA__;
+let sortKey='評分', sortDesc=true, gradeF='全部', q='';
+const cols=window.__COLS__;
+function chart(row){
+ return `https://goodinfo.tw/tw/ShowK_Chart.asp?STOCK_ID=${row['代號']}`}
+function fmt(k,v,row){
+ if(typeof v==='number'&&!isFinite(v))v=null;
+ if(k==='代號')return`<td><a class="lk" href="${chart(row)}" target="_blank" rel="noopener">${v}</a></td>`;
+ if(v===null||v===undefined||v==='')return'<td>—</td>';
+ if(k==='名稱')return`<td class="nm"><a class="lk" href="${chart(row)}" target="_blank" rel="noopener">${v}</a></td>`;
+ if(k==='產業')return`<td class="nm gp">${v}</td>`;
+ if(k==='題材')return`<td class="nm th">${v}</td>`;
+ if(k==='期貨')return`<td class="nm fut">${v}</td>`;
+ if(k==='評分')return`<td><b>${v}</b><span class="scorebar"><i style="width:${v}%"></i></span></td>`;
+ if(k==='等級')return`<td class="sig ${v.includes('A級')?'grade-a':''}">${v}</td>`;
+ if(k==='訊號')return`<td class="sig">${v}</td>`;
+ if(k==='外投3日買超(張)'){const c=v>0?'pos':v<0?'neg':'';
+   return`<td class="${c}">${v>0?'+':''}${Number(v).toLocaleString()}</td>`}
+ if(k==='投信連買')return`<td class="${v>=3?'pos':''}">${v}</td>`;
+ if(k==='MA20斜率')return`<td class="${v>0?'pos':'neg'}">${v}</td>`;
+ return`<td>${v}</td>`;
+}
+function render(){
+ let rows=D.filter(r=>{
+   if(gradeF==='A級'&&r['評分']<85)return false;
+   if(gradeF==='S1突破'&&r['訊號']!=='S1糾結突破')return false;
+   if(gradeF==='S2回踩'&&r['訊號']!=='S2順勢回踩')return false;
+   if(q&&!(String(r['代號']).includes(q)||String(r['名稱']||'').includes(q)||String(r['產業']||'').includes(q)||String(r['題材']||'').includes(q)||String(r['期貨']||'').includes(q)))return false;
+   return true});
+ rows.sort((a,b)=>{const x=a[sortKey]??-1e9,y=b[sortKey]??-1e9;
+   return(x<y?-1:x>y?1:0)*(sortDesc?-1:1)});
+ document.getElementById('tb').innerHTML=rows.map(r=>
+   `<tr class="${r['評分']>=85?'a':''}">${cols.map(([k])=>fmt(k,r[k],r)).join('')}</tr>`).join('');
+ document.querySelectorAll('th').forEach(th=>{
+   const on=th.dataset.k===sortKey;
+   th.classList.toggle('sorted',on);
+   const lab=th.dataset.lab||th.textContent.replace(/[ ▲▼]+$/,'');
+   th.dataset.lab=lab;
+   th.textContent=on?lab+(sortDesc?' ▼':' ▲'):lab});
+ document.getElementById('cnt').textContent=rows.length;
+}
+document.getElementById('hd').innerHTML=
+ '<tr>'+cols.map(([k,lab])=>`<th data-k="${k}">${lab}</th>`).join('')+'</tr>';
+document.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+ const k=th.dataset.k;
+ if(sortKey===k)sortDesc=!sortDesc;else{sortKey=k;sortDesc=true}
+ render()});
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+ document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+ c.classList.add('on');gradeF=c.dataset.f;render()});
+document.getElementById('q').oninput=e=>{q=e.target.value.trim();render()};
+// 表格拖曳平移 (滑鼠); 觸控裝置沿用原生滑動
+// 注意: 不可用 setPointerCapture — 會讓 click 改派給容器, 導致表頭排序失效
+const TW=document.querySelector('.tblwrap');
+let dg=false,sx=0,sl=0,mv=0,sup=false;
+TW.addEventListener('pointerdown',e=>{
+ sup=false;
+ if(e.pointerType!=='mouse'||e.button!==0)return;
+ dg=true;mv=0;sx=e.clientX;sl=TW.scrollLeft});
+window.addEventListener('pointermove',e=>{
+ if(!dg)return;const dx=e.clientX-sx;
+ if(Math.abs(dx)>3){TW.classList.add('drag');mv=Math.max(mv,Math.abs(dx))}
+ TW.scrollLeft=sl-dx});
+['pointerup','pointercancel'].forEach(ev=>window.addEventListener(ev,()=>{
+ if(!dg)return;dg=false;TW.classList.remove('drag');sup=mv>4;mv=0}));
+// 只有「真的拖曳過」才吃掉這次點擊, 排序與連結不受影響
+TW.addEventListener('click',e=>{
+ if(sup){e.preventDefault();e.stopPropagation()}
+ sup=false},true);
+// Shift+滾輪 橫向捲動
+TW.addEventListener('wheel',e=>{
+ if(e.shiftKey&&e.deltaY){TW.scrollLeft+=e.deltaY;e.preventDefault()}},{passive:false});
+const sel=document.getElementById('hist');
+if(sel)sel.onchange=e=>{if(e.target.value)location.href=e.target.value};
+render();
+</script>
+</body></html>
