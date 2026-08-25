@@ -6,14 +6,14 @@
   "entry_date": "2026-08-22",
   "entry": 455.0,
   "stop": 428.11,
-  "peak": 455.0,
-  "last": 453.0,
-  "ret": -0.44,
-  "days": 1,
+  "peak": 470.0,
+  "last": 470.0,
+  "ret": 3.3,
+  "days": 2,
   "status": "active",
   "score": 84,
   "risk": 5.91,
-  "ma20": 411.54
+  "ma20": 416.61
  },
  "4967.TW": {
   "code": "4967",
@@ -23,13 +23,13 @@
   "entry": 276.0,
   "stop": 259.25,
   "peak": 278.0,
-  "last": 278.0,
-  "ret": 0.72,
-  "days": 1,
+  "last": 272.5,
+  "ret": -1.27,
+  "days": 2,
   "status": "active",
   "score": 80,
   "risk": 6.07,
-  "ma20": 253.48
+  "ma20": 256.93
  },
  "8462.TW": {
   "code": "8462",
@@ -39,13 +39,13 @@
   "entry": 175.5,
   "stop": 173.0,
   "peak": 175.5,
-  "last": 175.5,
-  "ret": 0.0,
-  "days": 1,
+  "last": 174.5,
+  "ret": -0.57,
+  "days": 2,
   "status": "active",
   "score": 79,
   "risk": 1.42,
-  "ma20": 171.05
+  "ma20": 171.78
  },
  "2906.TW": {
   "code": "2906",
@@ -54,14 +54,14 @@
   "entry_date": "2026-08-22",
   "entry": 13.95,
   "stop": 13.56,
-  "peak": 13.95,
-  "last": 13.95,
-  "ret": -0.0,
-  "days": 1,
+  "peak": 14.2,
+  "last": 14.2,
+  "ret": 1.79,
+  "days": 2,
   "status": "active",
   "score": 78,
   "risk": 2.8,
-  "ma20": 13.34
+  "ma20": 13.39
  },
  "2727.TW": {
   "code": "2727",
@@ -71,13 +71,13 @@
   "entry": 237.5,
   "stop": 230.0,
   "peak": 237.5,
-  "last": 235.5,
-  "ret": -0.84,
-  "days": 1,
+  "last": 237.0,
+  "ret": -0.21,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 3.16,
-  "ma20": 232.28
+  "ma20": 232.68
  },
  "9935.TW": {
   "code": "9935",
@@ -87,13 +87,13 @@
   "entry": 20.25,
   "stop": 20.0,
   "peak": 20.3,
-  "last": 20.3,
-  "ret": 0.25,
-  "days": 1,
+  "last": 20.15,
+  "ret": -0.49,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 1.23,
-  "ma20": 20.04
+  "ma20": 20.09
  },
  "2641.TWO": {
   "code": "2641",
@@ -103,13 +103,13 @@
   "entry": 18.95,
   "stop": 18.24,
   "peak": 18.95,
-  "last": 18.85,
-  "ret": -0.53,
-  "days": 1,
+  "last": 18.9,
+  "ret": -0.26,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 3.75,
-  "ma20": 17.45
+  "ma20": 17.55
  },
  "1402.TW": {
   "code": "1402",
@@ -119,13 +119,17 @@
   "entry": 30.35,
   "stop": 29.3,
   "peak": 30.35,
-  "last": 29.45,
-  "ret": -2.97,
-  "days": 1,
-  "status": "active",
+  "last": 29.0,
+  "ret": -4.45,
+  "days": 2,
+  "status": "stopped",
   "score": 74,
   "risk": 3.46,
-  "ma20": 27.63
+  "ma20": 27.71,
+  "exit_date": "2026-08-25",
+  "exit": 29.0,
+  "exit_reason": "跌破停損",
+  "max_ret": 0.0
  },
  "1316.TW": {
   "code": "1316",
@@ -135,13 +139,13 @@
   "entry": 11.2,
   "stop": 10.75,
   "peak": 11.3,
-  "last": 11.3,
-  "ret": 0.89,
-  "days": 1,
+  "last": 11.05,
+  "ret": -1.34,
+  "days": 2,
   "status": "active",
   "score": 73,
   "risk": 4.02,
-  "ma20": 10.24
+  "ma20": 10.29
  },
  "8473.TW": {
   "code": "8473",
@@ -171,13 +175,13 @@
   "entry": 20.45,
   "stop": 19.65,
   "peak": 20.5,
-  "last": 20.5,
-  "ret": 0.24,
-  "days": 1,
+  "last": 20.35,
+  "ret": -0.49,
+  "days": 2,
   "status": "active",
   "score": 72,
   "risk": 3.91,
-  "ma20": 19.56
+  "ma20": 19.64
  },
  "2753.TW": {
   "code": "2753",
@@ -189,10 +193,11 @@
   "peak": 188.5,
   "last": 188.5,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 79,
-  "risk": 1.79
+  "risk": 1.79,
+  "ma20": 182.57
  },
  "8422.TW": {
   "code": "8422",
@@ -204,9 +209,70 @@
   "peak": 27.2,
   "last": 27.2,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 73,
-  "risk": 2.92
+  "risk": 2.92,
+  "ma20": 26.36
+ },
+ "3037.TW": {
+  "code": "3037",
+  "name": "欣興",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-08-25",
+  "entry": 1095.0,
+  "stop": 1030.0,
+  "peak": 1095.0,
+  "last": 1095.0,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 80,
+  "risk": 5.94
+ },
+ "6533.TW": {
+  "code": "6533",
+  "name": "晶心科",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-08-25",
+  "entry": 251.5,
+  "stop": 243.0,
+  "peak": 251.5,
+  "last": 251.5,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 77,
+  "risk": 3.38
+ },
+ "2201.TW": {
+  "code": "2201",
+  "name": "裕隆",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-08-25",
+  "entry": 28.7,
+  "stop": 27.85,
+  "peak": 28.7,
+  "last": 28.7,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 75,
+  "risk": 2.94
+ },
+ "9933.TW": {
+  "code": "9933",
+  "name": "中鼎",
+  "signal": "S2順勢回踩",
+  "entry_date": "2026-08-25",
+  "entry": 42.2,
+  "stop": 41.15,
+  "peak": 42.2,
+  "last": 42.2,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 74,
+  "risk": 2.49
  }
 }
