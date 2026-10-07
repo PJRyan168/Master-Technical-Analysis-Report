@@ -93,24 +93,22 @@
  "2727.TW": {
   "code": "2727",
   "name": "王品",
+  "_tk": "2727.TW",
   "signal": "S2順勢回踩",
-  "entry_date": "2026-08-22",
-  "entry": 237.5,
-  "stop": 230.0,
-  "peak": 237.5,
-  "last": 235.0,
-  "ret": -1.05,
-  "days": 5,
-  "status": "stopped",
-  "score": 75,
-  "risk": 3.16,
-  "ma20": 232.97,
-  "trail_stop": 235.16,
-  "eff_stop": 235.16,
-  "exit_date": "2026-08-28",
-  "exit": 235.0,
-  "exit_reason": "跌破移動停損(EMA8)",
-  "max_ret": 0.0
+  "entry_date": "2026-10-08",
+  "entry": 234.0,
+  "stop": 232.0,
+  "entry_adj": 251.35,
+  "peak_adj": 251.35,
+  "trail_stop": 232.0,
+  "eff_stop": 232.0,
+  "peak": 234.0,
+  "last": 234.0,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 71,
+  "risk": 0.86
  },
  "9935.TW": {
   "code": "9935",
@@ -227,13 +225,13 @@
   "trail_stop": 23.55,
   "eff_stop": 23.55,
   "peak": 24.8,
-  "last": 24.15,
-  "ret": 10.03,
-  "days": 9,
+  "last": 23.95,
+  "ret": 9.12,
+  "days": 10,
   "status": "active",
   "score": 84,
   "risk": 3.51,
-  "ma20": 22.1
+  "ma20": 21.94
  },
  "2753.TW": {
   "code": "2753",
@@ -248,13 +246,17 @@
   "trail_stop": 182.21,
   "eff_stop": 182.21,
   "peak": 185.0,
-  "last": 184.0,
-  "ret": 2.22,
-  "days": 2,
-  "status": "active",
+  "last": 181.0,
+  "ret": 0.56,
+  "days": 3,
+  "status": "stopped",
   "score": 70,
   "risk": 0.83,
-  "ma20": 180.0
+  "ma20": 179.78,
+  "exit_date": "2026-10-08",
+  "exit": 181.0,
+  "exit_reason": "跌破移動停損(EMA8)",
+  "max_ret": 2.78
  },
  "8422.TW": {
   "code": "8422",
@@ -520,13 +522,13 @@
   "trail_stop": 424.25,
   "eff_stop": 424.25,
   "peak": 505.0,
-  "last": 505.0,
-  "ret": 64.49,
-  "days": 8,
+  "last": 459.5,
+  "ret": 49.67,
+  "days": 9,
   "status": "active",
   "score": 74,
   "risk": 7.0,
-  "ma20": 344.53
+  "ma20": 334.25
  },
  "6179.TWO": {
   "code": "6179",
@@ -1037,17 +1039,17 @@
   "entry": 914.0,
   "stop": 811.86,
   "entry_adj": 920.13,
-  "peak_adj": 1026.84,
+  "peak_adj": 1036.91,
   "trail_stop": 993.48,
   "eff_stop": 993.48,
-  "peak": 1020.0,
-  "last": 1020.0,
-  "ret": 11.6,
-  "days": 10,
+  "peak": 1030.0,
+  "last": 1030.0,
+  "ret": 12.69,
+  "days": 11,
   "status": "active",
   "score": 88,
   "risk": 11.18,
-  "ma20": 886.2
+  "ma20": 871.7
  },
  "2883.TW": {
   "code": "2883",
@@ -1162,13 +1164,13 @@
   "trail_stop": 174.66,
   "eff_stop": 174.66,
   "peak": 195.0,
-  "last": 195.0,
-  "ret": 73.33,
-  "days": 15,
+  "last": 188.0,
+  "ret": 67.11,
+  "days": 16,
   "status": "active",
   "score": 72,
   "risk": 11.73,
-  "ma20": 140.2
+  "ma20": 135.47
  },
  "2351.TW": {
   "code": "2351",
@@ -1258,13 +1260,13 @@
   "trail_stop": 382.9,
   "eff_stop": 382.9,
   "peak": 444.0,
-  "last": 444.0,
-  "ret": 71.76,
-  "days": 13,
+  "last": 404.0,
+  "ret": 56.29,
+  "days": 14,
   "status": "active",
   "score": 78,
   "risk": 8.34,
-  "ma20": 305.18
+  "ma20": 294.02
  },
  "6199.TWO": {
   "code": "6199",
@@ -1279,13 +1281,13 @@
   "trail_stop": 130.49,
   "eff_stop": 130.49,
   "peak": 139.5,
-  "last": 139.5,
-  "ret": 32.86,
-  "days": 12,
+  "last": 135.5,
+  "ret": 29.05,
+  "days": 13,
   "status": "active",
   "score": 74,
   "risk": 4.67,
-  "ma20": 115.59
+  "ma20": 113.42
  },
  "2836.TW": {
   "code": "2836",
@@ -1346,17 +1348,17 @@
   "entry": 25.1,
   "stop": 21.0,
   "entry_adj": 25.3,
-  "peak_adj": 27.92,
+  "peak_adj": 28.67,
   "trail_stop": 27.06,
   "eff_stop": 27.06,
-  "peak": 27.7,
-  "last": 27.45,
-  "ret": 9.35,
-  "days": 11,
+  "peak": 28.45,
+  "last": 28.45,
+  "ret": 13.33,
+  "days": 12,
   "status": "active",
   "score": 72,
   "risk": 16.36,
-  "ma20": 24.61
+  "ma20": 24.33
  },
  "2455.TW": {
   "code": "2455",
@@ -1423,11 +1425,11 @@
   "peak": 50.3,
   "last": 50.3,
   "ret": 55.01,
-  "days": 8,
+  "days": 9,
   "status": "active",
   "score": 77,
   "risk": 5.61,
-  "ma20": 35.58
+  "ma20": 34.56
  },
  "1101.TW": {
   "code": "1101",
@@ -1467,12 +1469,12 @@
   "trail_stop": 37.58,
   "eff_stop": 37.58,
   "peak": 40.75,
-  "last": 40.75,
-  "ret": 13.98,
-  "days": 3,
+  "last": 37.65,
+  "ret": 5.31,
+  "days": 4,
   "status": "active",
   "score": 71,
   "risk": 2.1,
-  "ma20": 35.8
+  "ma20": 35.47
  }
 }
