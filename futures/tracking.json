@@ -128,13 +128,13 @@
   "trail_stop": 29.62,
   "eff_stop": 29.62,
   "peak": 30.2,
-  "last": 30.2,
-  "ret": 4.51,
-  "days": 6,
+  "last": 29.95,
+  "ret": 3.64,
+  "days": 7,
   "status": "active",
   "score": 72,
   "risk": 2.24,
-  "ma20": 28.51
+  "ma20": 28.62
  },
  "2520.TW": {
   "code": "2520",
@@ -146,15 +146,20 @@
   "stop": 37.09,
   "entry_adj": 39.96,
   "peak_adj": 39.96,
-  "trail_stop": 37.09,
-  "eff_stop": 37.09,
+  "trail_stop": 37.59,
+  "eff_stop": 37.59,
   "peak": 38.1,
-  "last": 38.1,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active",
+  "last": 37.55,
+  "ret": -1.44,
+  "days": 1,
+  "status": "stopped",
   "score": 70,
-  "risk": 2.65
+  "risk": 2.65,
+  "ma20": 37.27,
+  "exit_date": "2026-10-30",
+  "exit": 37.55,
+  "exit_reason": "跌破移動停損(EMA8)",
+  "max_ret": 0.0
  },
  "1440.TW": {
   "code": "1440",
@@ -236,13 +241,13 @@
   "trail_stop": 26.34,
   "eff_stop": 26.34,
   "peak": 26.55,
-  "last": 26.55,
-  "ret": 0.21,
-  "days": 4,
+  "last": 26.35,
+  "ret": -0.55,
+  "days": 5,
   "status": "active",
   "score": 74,
   "risk": 1.3,
-  "ma20": 25.98
+  "ma20": 26.02
  },
  "6279.TWO": {
   "code": "6279",
@@ -298,16 +303,16 @@
   "stop": 254.0,
   "entry_adj": 283.58,
   "peak_adj": 283.58,
-  "trail_stop": 258.89,
-  "eff_stop": 258.89,
+  "trail_stop": 259.81,
+  "eff_stop": 259.81,
   "peak": 263.0,
-  "last": 261.5,
-  "ret": -0.57,
-  "days": 1,
+  "last": 263.0,
+  "ret": -0.0,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 3.42,
-  "ma20": 250.0
+  "ma20": 251.0
  },
  "2609.TW": {
   "code": "2609",
@@ -388,16 +393,16 @@
   "stop": 67.3,
   "entry_adj": 74.45,
   "peak_adj": 74.45,
-  "trail_stop": 67.82,
-  "eff_stop": 67.82,
+  "trail_stop": 68.08,
+  "eff_stop": 68.08,
   "peak": 69.0,
-  "last": 67.9,
-  "ret": -1.6,
-  "days": 1,
+  "last": 69.0,
+  "ret": -0.0,
+  "days": 2,
   "status": "active",
   "score": 79,
   "risk": 2.47,
-  "ma20": 67.0
+  "ma20": 67.28
  },
  "3037.TW": {
   "code": "3037",
@@ -572,13 +577,13 @@
   "trail_stop": 131.55,
   "eff_stop": 131.55,
   "peak": 134.5,
-  "last": 134.5,
-  "ret": 2.67,
-  "days": 8,
+  "last": 132.5,
+  "ret": 1.15,
+  "days": 9,
   "status": "active",
   "score": 90,
   "risk": 2.7,
-  "ma20": 126.27
+  "ma20": 126.77
  },
  "6547.TWO": {
   "code": "6547",
@@ -682,13 +687,13 @@
   "trail_stop": 28.11,
   "eff_stop": 28.11,
   "peak": 28.8,
-  "last": 28.8,
-  "ret": 2.14,
-  "days": 4,
+  "last": 28.45,
+  "ret": 0.9,
+  "days": 5,
   "status": "active",
   "score": 83,
   "risk": 2.85,
-  "ma20": 27.06
+  "ma20": 27.16
  },
  "2421.TW": {
   "code": "2421",
@@ -950,15 +955,16 @@
   "stop": 572.0,
   "entry_adj": 625.55,
   "peak_adj": 625.55,
-  "trail_stop": 572.0,
-  "eff_stop": 572.0,
+  "trail_stop": 583.87,
+  "eff_stop": 583.87,
   "peak": 599.0,
-  "last": 599.0,
-  "ret": 0.0,
-  "days": 0,
+  "last": 598.0,
+  "ret": -0.17,
+  "days": 1,
   "status": "active",
   "score": 74,
-  "risk": 4.51
+  "risk": 4.51,
+  "ma20": 559.65
  },
  "2887.TW": {
   "code": "2887",
@@ -1248,13 +1254,13 @@
   "trail_stop": 42.0,
   "eff_stop": 42.0,
   "peak": 43.15,
-  "last": 43.15,
-  "ret": 4.47,
-  "days": 5,
+  "last": 42.8,
+  "ret": 3.62,
+  "days": 6,
   "status": "active",
   "score": 73,
   "risk": 2.07,
-  "ma20": 40.15
+  "ma20": 40.32
  },
  "2890.TW": {
   "code": "2890",
@@ -1319,13 +1325,13 @@
   "trail_stop": 53.89,
   "eff_stop": 53.89,
   "peak": 55.2,
-  "last": 55.0,
-  "ret": 3.39,
-  "days": 6,
+  "last": 53.9,
+  "ret": 1.32,
+  "days": 7,
   "status": "active",
   "score": 72,
   "risk": 3.08,
-  "ma20": 51.34
+  "ma20": 51.55
  },
  "2883.TW": {
   "code": "2883",
@@ -1465,13 +1471,13 @@
   "trail_stop": 72.21,
   "eff_stop": 72.21,
   "peak": 73.2,
-  "last": 73.2,
-  "ret": 2.67,
-  "days": 5,
+  "last": 73.0,
+  "ret": 2.38,
+  "days": 6,
   "status": "active",
   "score": 73,
   "risk": 1.83,
-  "ma20": 70.32
+  "ma20": 70.51
  },
  "2412.TW": {
   "code": "2412",
@@ -1486,13 +1492,13 @@
   "trail_stop": 155.42,
   "eff_stop": 155.42,
   "peak": 158.0,
-  "last": 158.0,
-  "ret": 8.59,
-  "days": 17,
+  "last": 156.5,
+  "ret": 7.56,
+  "days": 18,
   "status": "active",
   "score": 80,
   "risk": 1.71,
-  "ma20": 149.63
+  "ma20": 150.2
  },
  "4904.TW": {
   "code": "4904",
@@ -1832,13 +1838,13 @@
   "trail_stop": 27.53,
   "eff_stop": 27.53,
   "peak": 28.1,
-  "last": 28.1,
-  "ret": 0.54,
-  "days": 4,
+  "last": 28.0,
+  "ret": 0.18,
+  "days": 5,
   "status": "active",
   "score": 95,
   "risk": 3.91,
-  "ma20": 26.42
+  "ma20": 26.56
  },
  "2332.TW": {
   "code": "2332",
@@ -2078,13 +2084,13 @@
   "trail_stop": 92.27,
   "eff_stop": 92.27,
   "peak": 93.6,
-  "last": 92.9,
-  "ret": -0.42,
-  "days": 5,
+  "last": 93.6,
+  "ret": 0.33,
+  "days": 6,
   "status": "active",
   "score": 79,
   "risk": 3.57,
-  "ma20": 88.78
+  "ma20": 89.07
  },
  "1301.TW": {
   "code": "1301",
@@ -2324,13 +2330,13 @@
   "trail_stop": 124.09,
   "eff_stop": 124.09,
   "peak": 126.5,
-  "last": 126.5,
-  "ret": 3.26,
-  "days": 7,
+  "last": 125.0,
+  "ret": 2.04,
+  "days": 8,
   "status": "active",
   "score": 86,
   "risk": 2.19,
-  "ma20": 120.18
+  "ma20": 120.6
  },
  "4958.TW": {
   "code": "4958",
@@ -2372,11 +2378,11 @@
   "peak": 51.0,
   "last": 51.0,
   "ret": 0.19,
-  "days": 7,
+  "days": 8,
   "status": "active",
   "score": 75,
   "risk": 3.74,
-  "ma20": 49.01
+  "ma20": 49.18
  },
  "6153.TW": {
   "code": "6153",
@@ -2416,13 +2422,13 @@
   "trail_stop": 53.26,
   "eff_stop": 53.26,
   "peak": 56.7,
-  "last": 54.8,
-  "ret": 7.66,
-  "days": 6,
+  "last": 56.7,
+  "ret": 11.39,
+  "days": 7,
   "status": "active",
   "score": 85,
   "risk": 4.45,
-  "ma20": 49.47
+  "ma20": 49.96
  },
  "2439.TW": {
   "code": "2439",
@@ -2459,16 +2465,16 @@
   "stop": 19.5,
   "entry_adj": 19.91,
   "peak_adj": 19.91,
-  "trail_stop": 19.53,
-  "eff_stop": 19.53,
+  "trail_stop": 19.58,
+  "eff_stop": 19.58,
   "peak": 19.75,
   "last": 19.75,
   "ret": -0.02,
-  "days": 1,
+  "days": 2,
   "status": "active",
   "score": 80,
   "risk": 1.31,
-  "ma20": 19.23
+  "ma20": 19.28
  },
  "4938.TW": {
   "code": "4938",
@@ -2480,16 +2486,16 @@
   "stop": 102.5,
   "entry_adj": 112.86,
   "peak_adj": 112.86,
-  "trail_stop": 102.66,
-  "eff_stop": 102.66,
+  "trail_stop": 103.85,
+  "eff_stop": 103.85,
   "peak": 108.0,
-  "last": 105.0,
-  "ret": -2.78,
-  "days": 1,
+  "last": 108.0,
+  "ret": 0.0,
+  "days": 2,
   "status": "active",
   "score": 78,
   "risk": 5.09,
-  "ma20": 96.74
+  "ma20": 97.58
  },
  "2377.TW": {
   "code": "2377",
@@ -2501,16 +2507,16 @@
   "stop": 162.0,
   "entry_adj": 173.47,
   "peak_adj": 173.47,
-  "trail_stop": 162.55,
-  "eff_stop": 162.55,
+  "trail_stop": 163.88,
+  "eff_stop": 163.88,
   "peak": 168.5,
-  "last": 166.0,
-  "ret": -1.48,
-  "days": 1,
+  "last": 168.5,
+  "ret": 0.0,
+  "days": 2,
   "status": "active",
   "score": 76,
   "risk": 3.86,
-  "ma20": 157.65
+  "ma20": 158.5
  },
  "2379.TW": {
   "code": "2379",
@@ -2522,14 +2528,15 @@
   "stop": 763.0,
   "entry_adj": 821.16,
   "peak_adj": 821.16,
-  "trail_stop": 763.0,
-  "eff_stop": 763.0,
+  "trail_stop": 780.37,
+  "eff_stop": 780.37,
   "peak": 793.0,
-  "last": 793.0,
-  "ret": 0.0,
-  "days": 0,
+  "last": 791.0,
+  "ret": -0.25,
+  "days": 1,
   "status": "active",
   "score": 74,
-  "risk": 3.78
+  "risk": 3.78,
+  "ma20": 766.65
  }
 }
