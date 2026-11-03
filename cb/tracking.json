@@ -443,13 +443,13 @@
   "trail_stop": 132.6,
   "eff_stop": 132.6,
   "peak": 134.5,
-  "last": 133.5,
-  "ret": 1.91,
-  "days": 11,
+  "last": 133.0,
+  "ret": 1.53,
+  "days": 12,
   "status": "active",
   "score": 90,
   "risk": 2.7,
-  "ma20": 128.15
+  "ma20": 128.7
  },
  "2897.TW": {
   "code": "2897",
@@ -652,15 +652,16 @@
   "stop": 112.0,
   "entry_adj": 120.14,
   "peak_adj": 120.14,
-  "trail_stop": 112.0,
-  "eff_stop": 112.0,
+  "trail_stop": 115.09,
+  "eff_stop": 115.09,
   "peak": 116.0,
   "last": 116.0,
   "ret": 0.0,
-  "days": 0,
+  "days": 1,
   "status": "active",
   "score": 73,
-  "risk": 3.45
+  "risk": 3.45,
+  "ma20": 113.63
  },
  "6913.TWO": {
   "code": "6913",
@@ -747,15 +748,20 @@
   "stop": 158.0,
   "entry_adj": 166.98,
   "peak_adj": 166.98,
-  "trail_stop": 158.0,
-  "eff_stop": 158.0,
+  "trail_stop": 160.08,
+  "eff_stop": 160.08,
   "peak": 161.5,
-  "last": 161.5,
-  "ret": 0.0,
-  "days": 0,
-  "status": "active",
+  "last": 159.5,
+  "ret": -1.24,
+  "days": 1,
+  "status": "stopped",
   "score": 75,
-  "risk": 2.17
+  "risk": 2.17,
+  "ma20": 157.95,
+  "exit_date": "2026-11-04",
+  "exit": 159.5,
+  "exit_reason": "跌破移動停損(EMA8)",
+  "max_ret": 0.0
  },
  "5534.TW": {
   "code": "5534",
@@ -1295,13 +1301,13 @@
   "trail_stop": 155.49,
   "eff_stop": 155.49,
   "peak": 162.5,
-  "last": 160.5,
-  "ret": 52.86,
-  "days": 30,
+  "last": 162.5,
+  "ret": 54.76,
+  "days": 31,
   "status": "active",
   "score": 74,
   "risk": 4.67,
-  "ma20": 144.75
+  "ma20": 146.47
  },
  "2836.TW": {
   "code": "2836",
@@ -1466,13 +1472,13 @@
   "trail_stop": 27.89,
   "eff_stop": 27.89,
   "peak": 28.35,
-  "last": 28.35,
-  "ret": 1.44,
-  "days": 7,
+  "last": 28.1,
+  "ret": 0.54,
+  "days": 8,
   "status": "active",
   "score": 95,
   "risk": 3.91,
-  "ma20": 26.81
+  "ma20": 26.93
  },
  "5244.TW": {
   "code": "5244",
