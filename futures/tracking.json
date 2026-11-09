@@ -2632,12 +2632,12 @@
   "trail_stop": 21.04,
   "eff_stop": 21.04,
   "peak": 21.75,
-  "last": 21.75,
-  "ret": 0.45,
-  "days": 1,
+  "last": 21.2,
+  "ret": -2.09,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 3.02,
-  "ma20": 20.65
+  "ma20": 20.57
  }
 }
