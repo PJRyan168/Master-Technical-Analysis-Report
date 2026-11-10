@@ -1178,13 +1178,13 @@
   "trail_stop": 21.04,
   "eff_stop": 21.04,
   "peak": 21.75,
-  "last": 21.2,
-  "ret": -2.09,
-  "days": 2,
+  "last": 21.75,
+  "ret": 0.45,
+  "days": 3,
   "status": "active",
   "score": 75,
   "risk": 3.02,
-  "ma20": 20.57
+  "ma20": 20.65
  },
  "2002.TW": {
   "code": "2002",
@@ -1651,13 +1651,13 @@
   "trail_stop": 15.17,
   "eff_stop": 15.17,
   "peak": 17.95,
-  "last": 16.35,
-  "ret": 20.64,
-  "days": 5,
+  "last": 17.95,
+  "ret": 32.45,
+  "days": 6,
   "status": "active",
   "score": 78,
   "risk": 3.93,
-  "ma20": 13.42
+  "ma20": 13.72
  },
  "3702.TW": {
   "code": "3702",
@@ -4984,13 +4984,13 @@
   "trail_stop": 106.86,
   "eff_stop": 106.86,
   "peak": 110.5,
-  "last": 110.0,
-  "ret": 10.11,
-  "days": 10,
+  "last": 110.5,
+  "ret": 10.61,
+  "days": 11,
   "status": "active",
   "score": 78,
   "risk": 6.6,
-  "ma20": 99.4
+  "ma20": 100.31
  },
  "6885.TW": {
   "code": "6885",
@@ -5280,13 +5280,13 @@
   "trail_stop": 58.55,
   "eff_stop": 58.55,
   "peak": 63.3,
-  "last": 60.2,
-  "ret": 2.9,
-  "days": 5,
+  "last": 63.3,
+  "ret": 8.2,
+  "days": 6,
   "status": "active",
   "score": 76,
   "risk": 18.2,
-  "ma20": 52.08
+  "ma20": 53.22
  },
  "6224.TW": {
   "code": "6224",
@@ -5351,13 +5351,13 @@
   "trail_stop": 162.31,
   "eff_stop": 162.31,
   "peak": 167.0,
-  "last": 163.5,
-  "ret": 55.71,
-  "days": 37,
+  "last": 165.0,
+  "ret": 57.14,
+  "days": 38,
   "status": "active",
   "score": 74,
   "risk": 4.67,
-  "ma20": 152.47
+  "ma20": 153.62
  },
  "2530.TW": {
   "code": "2530",
@@ -5668,16 +5668,17 @@
   "entry": 299.0,
   "stop": 268.0,
   "entry_adj": 299.0,
-  "peak_adj": 299.0,
-  "trail_stop": 268.0,
-  "eff_stop": 268.0,
-  "peak": 299.0,
-  "last": 299.0,
-  "ret": 0.0,
-  "days": 0,
+  "peak_adj": 328.5,
+  "trail_stop": 315.85,
+  "eff_stop": 315.85,
+  "peak": 328.5,
+  "last": 328.5,
+  "ret": 9.87,
+  "days": 1,
   "status": "active",
   "score": 80,
-  "risk": 10.37
+  "risk": 10.37,
+  "ma20": 277.55
  },
  "3324.TWO": {
   "code": "3324",
@@ -7409,7 +7410,7 @@
   "name": "欣陸",
   "_tk": "3703.TW",
   "signal": "S1糾結突破",
-  "entry_date": "2026-11-09",
+  "entry_date": "2026-11-11",
   "entry": 22.45,
   "stop": 21.53,
   "entry_adj": 23.61,
@@ -7417,17 +7418,12 @@
   "trail_stop": 21.53,
   "eff_stop": 21.53,
   "peak": 22.45,
-  "last": 20.45,
-  "ret": -8.93,
-  "days": 1,
-  "status": "stopped",
+  "last": 22.45,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
   "score": 87,
-  "risk": 4.11,
-  "ma20": 20.61,
-  "exit_date": "2026-11-10",
-  "exit": 20.45,
-  "exit_reason": "跌破停損",
-  "max_ret": 0.0
+  "risk": 4.11
  },
  "2480.TW": {
   "code": "2480",
@@ -7592,13 +7588,13 @@
   "trail_stop": 16.09,
   "eff_stop": 16.09,
   "peak": 16.45,
-  "last": 16.2,
-  "ret": -0.31,
-  "days": 6,
+  "last": 16.45,
+  "ret": 1.23,
+  "days": 7,
   "status": "active",
   "score": 84,
   "risk": 3.26,
-  "ma20": 15.62
+  "ma20": 15.68
  },
  "6233.TWO": {
   "code": "6233",
@@ -7685,16 +7681,16 @@
   "stop": 19.95,
   "entry_adj": 21.14,
   "peak_adj": 21.14,
-  "trail_stop": 19.95,
-  "eff_stop": 19.95,
+  "trail_stop": 20.08,
+  "eff_stop": 20.08,
   "peak": 20.85,
-  "last": 20.15,
-  "ret": -3.34,
-  "days": 1,
+  "last": 20.85,
+  "ret": 0.02,
+  "days": 2,
   "status": "active",
   "score": 85,
   "risk": 4.3,
-  "ma20": 19.69
+  "ma20": 19.77
  },
  "4155.TW": {
   "code": "4155",
@@ -7706,15 +7702,15 @@
   "stop": 16.88,
   "entry_adj": 20.17,
   "peak_adj": 20.17,
-  "trail_stop": 16.93,
-  "eff_stop": 16.93,
+  "trail_stop": 17.28,
+  "eff_stop": 17.28,
   "peak": 18.5,
-  "last": 17.9,
-  "ret": -3.24,
-  "days": 1,
+  "last": 18.5,
+  "ret": 0.01,
+  "days": 2,
   "status": "active",
   "score": 74,
   "risk": 8.78,
-  "ma20": 16.39
+  "ma20": 16.54
  }
 }
