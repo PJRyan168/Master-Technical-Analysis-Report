@@ -2628,16 +2628,16 @@
   "entry": 21.65,
   "stop": 21.0,
   "entry_adj": 22.51,
-  "peak_adj": 22.61,
-  "trail_stop": 21.04,
-  "eff_stop": 21.04,
-  "peak": 21.75,
-  "last": 21.75,
-  "ret": 0.45,
-  "days": 3,
+  "peak_adj": 23.7,
+  "trail_stop": 21.43,
+  "eff_stop": 21.43,
+  "peak": 22.8,
+  "last": 22.8,
+  "ret": 5.3,
+  "days": 4,
   "status": "active",
   "score": 75,
   "risk": 3.02,
-  "ma20": 20.65
+  "ma20": 20.77
  }
 }
