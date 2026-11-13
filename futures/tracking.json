@@ -2629,16 +2629,16 @@
   "stop": 21.0,
   "entry_adj": 22.51,
   "peak_adj": 24.43,
-  "trail_stop": 21.89,
-  "eff_stop": 21.89,
+  "trail_stop": 22.09,
+  "eff_stop": 22.09,
   "peak": 23.5,
-  "last": 23.5,
-  "ret": 8.53,
-  "days": 5,
+  "last": 22.8,
+  "ret": 5.3,
+  "days": 6,
   "status": "active",
   "score": 75,
   "risk": 3.02,
-  "ma20": 20.92
+  "ma20": 21.03
  },
  "2618.TW": {
   "code": "2618",
@@ -2653,11 +2653,32 @@
   "trail_stop": 45.49,
   "eff_stop": 45.49,
   "peak": 47.6,
-  "last": 47.6,
+  "last": 46.9,
+  "ret": -1.48,
+  "days": 1,
+  "status": "active",
+  "score": 85,
+  "risk": 4.44,
+  "ma20": 43.67
+ },
+ "1476.TW": {
+  "code": "1476",
+  "name": "儒鴻",
+  "_tk": "1476.TW",
+  "signal": "S3強勢動能",
+  "entry_date": "2026-11-14",
+  "entry": 369.0,
+  "stop": 335.7,
+  "entry_adj": 385.85,
+  "peak_adj": 385.85,
+  "trail_stop": 335.7,
+  "eff_stop": 335.7,
+  "peak": 369.0,
+  "last": 369.0,
   "ret": 0.0,
   "days": 0,
   "status": "active",
-  "score": 85,
-  "risk": 4.44
+  "score": 89,
+  "risk": 9.02
  }
 }
