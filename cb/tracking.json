@@ -128,13 +128,13 @@
   "trail_stop": 19.4,
   "eff_stop": 19.4,
   "peak": 20.25,
-  "last": 20.25,
-  "ret": 2.04,
-  "days": 1,
+  "last": 20.2,
+  "ret": 1.78,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 2.66,
-  "ma20": 18.71
+  "ma20": 18.64
  },
  "2641.TWO": {
   "code": "2641",
@@ -1312,11 +1312,11 @@
   "peak": 169.0,
   "last": 169.0,
   "ret": 60.95,
-  "days": 41,
+  "days": 42,
   "status": "active",
   "score": 74,
   "risk": 4.67,
-  "ma20": 159.88
+  "ma20": 158.62
  },
  "2836.TW": {
   "code": "2836",
