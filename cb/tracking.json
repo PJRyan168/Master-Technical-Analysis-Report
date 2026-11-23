@@ -376,13 +376,17 @@
   "trail_stop": 53.35,
   "eff_stop": 53.35,
   "peak": 57.5,
-  "last": 56.6,
-  "ret": 0.01,
-  "days": 2,
-  "status": "active",
+  "last": 51.9,
+  "ret": -8.3,
+  "days": 3,
+  "status": "stopped",
   "score": 79,
   "risk": 11.96,
-  "ma20": 48.76
+  "ma20": 49.47,
+  "exit_date": "2026-11-23",
+  "exit": 51.9,
+  "exit_reason": "跌破移動停損(EMA8)",
+  "max_ret": 1.59
  },
  "3543.TW": {
   "code": "3543",
@@ -1307,16 +1311,16 @@
   "stop": 100.1,
   "entry_adj": 105.0,
   "peak_adj": 172.5,
-  "trail_stop": 169.3,
-  "eff_stop": 169.3,
+  "trail_stop": 170.05,
+  "eff_stop": 170.05,
   "peak": 172.5,
   "last": 172.5,
   "ret": 64.29,
-  "days": 46,
+  "days": 47,
   "status": "active",
   "score": 74,
   "risk": 4.67,
-  "ma20": 163.55
+  "ma20": 165.7
  },
  "2836.TW": {
   "code": "2836",
