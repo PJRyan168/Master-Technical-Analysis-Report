@@ -1314,13 +1314,17 @@
   "trail_stop": 170.05,
   "eff_stop": 170.05,
   "peak": 172.5,
-  "last": 172.5,
-  "ret": 64.29,
-  "days": 47,
-  "status": "active",
+  "last": 169.5,
+  "ret": 61.43,
+  "days": 48,
+  "status": "stopped",
   "score": 74,
   "risk": 4.67,
-  "ma20": 165.7
+  "ma20": 164.55,
+  "exit_date": "2026-11-24",
+  "exit": 169.5,
+  "exit_reason": "跌破移動停損(EMA8)",
+  "max_ret": 64.29
  },
  "2836.TW": {
   "code": "2836",
