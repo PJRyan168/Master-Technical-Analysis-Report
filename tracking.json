@@ -1888,15 +1888,16 @@
   "stop": 195.18,
   "entry_adj": 216.81,
   "peak_adj": 216.81,
-  "trail_stop": 195.18,
-  "eff_stop": 195.18,
+  "trail_stop": 197.67,
+  "eff_stop": 197.67,
   "peak": 206.0,
-  "last": 206.0,
-  "ret": 0.0,
-  "days": 0,
+  "last": 200.5,
+  "ret": -2.67,
+  "days": 1,
   "status": "active",
   "score": 75,
-  "risk": 5.25
+  "risk": 5.25,
+  "ma20": 192.88
  },
  "1455.TW": {
   "code": "1455",
@@ -7849,5 +7850,25 @@
   "exit": 101.0,
   "exit_reason": "跌破移動停損(EMA8)",
   "max_ret": 0.0
+ },
+ "7765.TW": {
+  "code": "7765",
+  "name": "中華資安",
+  "_tk": "7765.TW",
+  "signal": "S3強勢動能",
+  "entry_date": "2026-11-27",
+  "entry": 311.0,
+  "stop": 252.7,
+  "entry_adj": 323.51,
+  "peak_adj": 323.51,
+  "trail_stop": 252.7,
+  "eff_stop": 252.7,
+  "peak": 311.0,
+  "last": 311.0,
+  "ret": 0.0,
+  "days": 0,
+  "status": "active",
+  "score": 76,
+  "risk": 18.75
  }
 }
