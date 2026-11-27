@@ -358,16 +358,16 @@
   "stop": 195.18,
   "entry_adj": 216.81,
   "peak_adj": 216.81,
-  "trail_stop": 197.67,
-  "eff_stop": 197.67,
+  "trail_stop": 197.74,
+  "eff_stop": 197.74,
   "peak": 206.0,
-  "last": 200.5,
-  "ret": -2.67,
-  "days": 1,
+  "last": 198.0,
+  "ret": -3.88,
+  "days": 2,
   "status": "active",
   "score": 75,
   "risk": 5.25,
-  "ma20": 192.88
+  "ma20": 192.95
  },
  "1216.TW": {
   "code": "1216",
